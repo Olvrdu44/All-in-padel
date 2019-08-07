@@ -88,6 +88,10 @@
 			<string>need photo library access to save pictures there</string>
 		</edit-config>
     </platform>
+	<plugin name="cordova-plugin-device" spec="^2.0.2">
+        <variable name="android-minSdkVersion" value="19" />
+        <variable name="android-targetSdkVersion" value="28" />
+    </plugin>
 	<engine name="ios" spec="~4.5.3" />
     <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-dialogs" spec="~1.2.1" />
